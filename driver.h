@@ -116,6 +116,8 @@
   #include "pico_cnc_map.h"
 #elif defined(BOARD_PICOBOB)
   #include "picobob_map.h"
+#elif defined(BOARD_PICOBOB_PLUSPLUS)
+  #include "picobob_plusplus_map.h"
 #elif defined(BOARD_BTT_SKR_PICO_10)
   #include "btt_skr_pico_10_map.h"
 #elif defined BOARD_CITOH_CX6000
